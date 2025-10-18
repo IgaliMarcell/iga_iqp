@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(iga_iqp_gps_path_visualizer)
-
+project(iga_iqp)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
