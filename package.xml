@@ -3,14 +3,23 @@
   <name>iga_iqp</name>
   <version>0.0.1</version>
   <description>GPS path publisher and RViz visualizer in C++ for ROS 2 Humble.</description>
-  <maintainer email="i.marci158@gmail.com">Your Name</maintainer>
+
+  <maintainer email="i.marci158@gmail.com">Iga Marci</maintainer>
   <license>Apache-2.0</license>
 
+  <!-- Build tools -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <!-- Core dependencies -->
   <depend>rclcpp</depend>
   <depend>geometry_msgs</depend>
   <depend>visualization_msgs</depend>
 
+  <!-- Optional runtime dependency (for visualization) -->
   <exec_depend>rviz2</exec_depend>
+
+  <!-- Export information -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
